@@ -42,7 +42,6 @@ const randomcolor = () => {
 }
 
 function rgbchange (){
-    cur.textContent = ':RGB';
     let cells = document.querySelectorAll('div.grid-item');
     cells.forEach((cell)=>{
         cell.addEventListener('mouseover',(e)=>{
@@ -85,6 +84,7 @@ const erase = () =>{
 
 const rainbow = ()=>{
     rgb.addEventListener('click',()=>{
+        cur.textContent = ':RGB';
         rgbchange();
     });
 }
