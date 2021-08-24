@@ -71,13 +71,14 @@ const clrscr = ()=>{
 
 const blackscreen = ()=>{
     black.addEventListener('click',()=>{
+        cur.textContent = ':black';
         colorchange('black');
     });
 }
 
 const erase = () =>{
     eraser.addEventListener('click',()=>{
-        cur.textContent = 'white';
+        cur.textContent = ':white';
         colorchange('white');
     })
 }
