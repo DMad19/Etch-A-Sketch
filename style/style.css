@@ -1,11 +1,12 @@
 :root
 {
-    --rowsNo:16;
-    --columnsNo:16;
+    --rowsNo:1;
+    --columnsNo:1;
+    
 }
 body
 {
-    background-color: lightsteelblue;
+    background:lightsteelblue;
 }
 .title
 {
